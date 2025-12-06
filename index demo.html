@@ -1,0 +1,98 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row text-white">
+      <!-- About -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-gradient">Antony Woman College</h5>
+        <p style="font-size:13px;">Event Management Portal for students and staff.</p>
+      </div>
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-gradient">Quick Links</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#todayEvents">Today's Events</a></li>
+          <li><a href="#events">Upcoming Events</a></li>
+          <li><a href="/staff">Staff</a></li>
+        </ul>
+      </div>
+      <!-- Contact -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-gradient">Contact</h5>
+        <p style="font-size:13px;">Email: info@antonycollege.edu</p>
+        <p style="font-size:13px;">Phone: +91 12345 67890</p>
+        <div class="d-flex gap-2 mt-2">
+          <a href="#" class="social-btn">🌐</a>
+          <a href="#" class="social-btn">📘</a>
+          <a href="#" class="social-btn">🐦</a>
+          <a href="#" class="social-btn">📸</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-3 text-white-50" style="font-size:12px;">
+      &copy; 2025 Antony Woman College. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+
+
+<style>
+  .footer {
+  background: linear-gradient(135deg, #0f1c2c, #1a2b4c);
+  border-top: 1px solid #00d1ff;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 0 10px;
+  font-size: 14px;
+}
+.footer h5.text-gradient {
+  background: linear-gradient(90deg, #00d1ff, #ff6ec7, #20c997);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+}
+.footer-links li a {
+  color: #cfd8dc;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 4px 0;
+  display: inline-block;
+  transition: 0.3s;
+  position: relative;
+}
+.footer-links li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #00d1ff;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+.footer-links li a:hover::after {
+  width: 100%;
+}
+.footer-links li a:hover {
+  color: #00d1ff;
+  transform: translateY(-2px);
+}
+.social-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #00d1ff, #ff6ec7);
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.social-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+</style>
